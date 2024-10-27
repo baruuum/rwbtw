@@ -1,0 +1,20 @@
+Package: rwbtw
+Type: Package
+Title: Calculates the Random Walk Betweenness of nodes in a graph
+Version: 0.0.0.2
+Date: 2024-10-27
+Author: Barum Park
+Maintainer: Barum Park <baruuum@gmail.com>
+Description: This package calculates the random walk betweenness of nodes in a (possibily weighted) undireced graph.
+License: MIT + file LICENSE
+Imports: Rcpp (>= 1.0.13)
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: 
+    igraph (>= 2.0.3),
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
