@@ -5,11 +5,11 @@
 [![R-CMD-check](https://github.com/baruuum/rwbtw/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/baruuum/rwbtw/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-This package calculates the random-walk betweenness measure proposed by Newman (2005) on (possibly weighted) graphs.
+This package contains a single function that calculates the random-walk betweenness measure proposed by Newman (2005) on (possibly weighted) graphs. Unfortunately, sparse matrices are not supported.
 
 ## Installation
 
-You can install the development version of rwbtw from [GitHub](https://github.com/) with:
+You can install the development version of `rwbtw` from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")
@@ -42,5 +42,4 @@ rwbtw(network1)
 ```
 
 ## References
-
 Newman, Mark EJ. "A measure of betweenness centrality based on random walks." *Social networks* 27, no. 1 (2005): 39-54.
